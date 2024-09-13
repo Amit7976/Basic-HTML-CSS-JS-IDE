@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/adfb125c08.js" crossorigin="anonymous"></script>
+    <title>Basic HTML CSS JS IDE</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.31.2/ace.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="left">
+            <label><i class="fa-brands fa-html5"></i> HTML</label>
+            <div id="html-editor"></div>
+            <label><i class="fa-brands fa-css3-alt"></i> CSS</label>
+            <div id="css-editor"></div>
+            <label><i class="fa-brands fa-js"></i> JavaScript</label>
+            <div id="js-editor"></div>
+            <button onclick="run()">Run Code</button>
+        </div>
+        <div class="right">
+            <label><i class="fa-solid fa-play"></i> Output</label>
+            <iframe id="output"></iframe>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+
+</body>
+
+</html>
